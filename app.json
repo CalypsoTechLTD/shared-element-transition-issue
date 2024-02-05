@@ -16,6 +16,17 @@
       ]
     ],
     "name": "shared-element-nested-nav-issue",
-    "slug": "shared-element-nested-nav-issue"
+    "slug": "shared-element-nested-nav-issue",
+    "extra": {
+      "router": {
+        "origin": "https://n"
+      },
+      "eas": {
+        "projectId": "94362228-f430-41bc-8192-03f8dda0d5d8"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.appidemia.sharedelementnestednavissue"
+    }
   }
 }

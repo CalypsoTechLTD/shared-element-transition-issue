@@ -1,6 +1,12 @@
 import "../global.css";
-import { Slot } from "expo-router";
+import { Slot, Stack, Tabs } from "expo-router";
 
 export default function Layout() {
-  return <Slot />;
+  return (
+    <Tabs
+      screenOptions={{
+        headerShown: false,
+      }}
+    />
+  );
 }
